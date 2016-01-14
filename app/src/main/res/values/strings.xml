@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">myCaloriesCounter</string>
+    <string name="mainTitle">CalCounter</string>
+    <string name="foodHint">What did you eat?</string>
+    <string name="foodCal">Calories Count</string>
+    <string name="saveButton">submit</string>
+    <string name="title_activity_menu">menu</string>
+</resources>

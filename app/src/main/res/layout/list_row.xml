@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#fcfcfc">
+    <TextView
+        android:id="@+id/list_rowFoodName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FoodName"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="2dp"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/list_rowDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="date"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/list_rowFoodName"
+        android:layout_marginTop="12dp"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        />
+    <ImageView
+        android:id="@+id/list_rowImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/list_rowDate"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/apple"
+        />
+    <TextView
+        android:id="@+id/list_rowCal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CAL"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/list_rowImage"
+        android:layout_marginTop="10dp"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="#e6301f"/>
+    <TextView
+        android:id="@+id/list_rowcal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cal."
+        android:layout_alignBaseline="@+id/list_rowCal"
+        android:layout_toRightOf="@+id/list_rowCal"
+        android:layout_marginLeft="5dp"
+        android:textSize="20sp"
+        />
+
+
+
+</RelativeLayout>
